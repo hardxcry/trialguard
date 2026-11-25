@@ -1,0 +1,119 @@
+{
+ "base": "protectai/deberta-v3-base-prompt-injection-v2",
+ "families": [
+  "authority",
+  "instruction",
+  "multilingual",
+  "obfuscation",
+  "persuasion",
+  "sabotage"
+ ],
+ "lofo": {
+  "authority": {
+   "trialguard": {
+    "tpr": 0.8040540540540541,
+    "fpr": 0.0,
+    "n_pos": 296,
+    "n_neg": 304
+   },
+   "generic": {
+    "tpr": 0.05067567567567568,
+    "fpr": 0.0,
+    "n_pos": 296,
+    "n_neg": 304
+   },
+   "minutes": 27.2
+  },
+  "instruction": {
+   "trialguard": {
+    "tpr": 1.0,
+    "fpr": 0.010344827586206896,
+    "n_pos": 310,
+    "n_neg": 290
+   },
+   "generic": {
+    "tpr": 0.0,
+    "fpr": 0.0,
+    "n_pos": 310,
+    "n_neg": 290
+   },
+   "minutes": 29.7
+  },
+  "multilingual": {
+   "trialguard": {
+    "tpr": 1.0,
+    "fpr": 0.0,
+    "n_pos": 303,
+    "n_neg": 297
+   },
+   "generic": {
+    "tpr": 0.066006600660066,
+    "fpr": 0.0,
+    "n_pos": 303,
+    "n_neg": 297
+   },
+   "minutes": 21.7
+  },
+  "obfuscation": {
+   "trialguard": {
+    "tpr": 0.45674740484429066,
+    "fpr": 0.003215434083601286,
+    "n_pos": 289,
+    "n_neg": 311
+   },
+   "generic": {
+    "tpr": 0.10380622837370242,
+    "fpr": 0.0,
+    "n_pos": 289,
+    "n_neg": 311
+   },
+   "minutes": 20.0
+  },
+  "persuasion": {
+   "trialguard": {
+    "tpr": 0.9084967320261438,
+    "fpr": 0.006802721088435374,
+    "n_pos": 306,
+    "n_neg": 294
+   },
+   "generic": {
+    "tpr": 0.0,
+    "fpr": 0.0,
+    "n_pos": 306,
+    "n_neg": 294
+   },
+   "minutes": 19.8
+  },
+  "sabotage": {
+   "trialguard": {
+    "tpr": 1.0,
+    "fpr": 0.0,
+    "n_pos": 313,
+    "n_neg": 287
+   },
+   "generic": {
+    "tpr": 0.054313099041533544,
+    "fpr": 0.0,
+    "n_pos": 313,
+    "n_neg": 287
+   },
+   "minutes": 21.1
+  }
+ },
+ "started": "Tue Nov 24 14:25:10 2026",
+ "final": {
+  "trialguard": {
+   "tpr": 0.9003322259136213,
+   "fpr": 0.0,
+   "n_pos": 301,
+   "n_neg": 299
+  },
+  "generic": {
+   "tpr": 0.04318936877076412,
+   "fpr": 0.0,
+   "n_pos": 301,
+   "n_neg": 299
+  }
+ },
+ "finished": "Tue Nov 24 15:08:22 2026"
+}

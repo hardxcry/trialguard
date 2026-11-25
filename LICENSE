@@ -1,0 +1,17 @@
+Copyright (c) 2026 hardxcry. All rights reserved.
+
+This repository is published so that it can be viewed and evaluated, for example by
+recruiters, reviewers and instructors.
+
+No permission is granted to copy, modify, merge, publish, distribute, sublicense, sell or
+otherwise use the source code, documentation, figures or trained models in this repository,
+in whole or in part, for any purpose, without prior written permission from the author.
+
+Viewing the repository on GitHub, and forking it within GitHub as GitHub's Terms of Service
+allow, are the only uses permitted without that permission.
+
+Third-party datasets, pretrained models and libraries used by this project remain under
+their own licences. Material derived from Cholec80 (reports/predictions.json and the figures) remains under CC BY-NC-SA 4.0, as that dataset's licence requires.
+
+THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM IT.
